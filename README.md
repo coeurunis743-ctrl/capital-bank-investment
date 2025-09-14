@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Capital Bank Investment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      line-height: 1.5;
+      color: #333;
+    }
+    header {
+      background: #f8f9fa;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0; padding: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: #e9ecef;
+    }
+    .hero h1 {
+      margin-bottom: 20px;
+      font-size: 2.5em;
+    }
+    .hero .btn {
+      padding: 15px 30px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .plan-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      background: #fff;
+    }
+    .plan-card h3 {
+      margin-top: 0;
+      color: #007bff;
+    }
+    .plan-card .btn {
+      margin-top: 15px;
+      display: inline-block;
+    }
+    .features, .team, .domains, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    footer a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><strong>Capital Bank Investment</strong></div>
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#plans">Plans</a></li>
+      <li><a href="#why">Pourquoi nous choisir</a></li>
+      <li><a href="#team">Équipe</a></li>
+      <li><a href="#domains">Domaines</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://wa.me/2250555524941">WhatsApp</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <h1>Faites croître votre richesse avec Capital Bank Investment</h1>
+  <a href="#plans" class="btn">Voir les plans d’investissement</a>
+</section>
+
+<!-- Plans -->
+<section class="section" id="plans">
+  <h2 style="text-align:center;">Plans d’investissement</h2>
+  <div class="plans">
+    <div class="plan-card">
+      <h3>$50</h3>
+      <p>Investissement initial</p>
+      <p>Rendement total: $400</p>
+      <p>Durée: 1 heure</p>
+      <p>ROI: 700%</p>
+      <p>Profit: $350</p>
+      <a href="https://wa.me/2250555524941" class="btn">Commencer</a>
+    </div>
+    <div class="plan-card">
+      <h3>$100</h3>
+      <p>Investissement initial</p>
+      <p>Rendement total: $750</p>
+      <p>Durée: 1 heure</p>
+      <p>ROI: 650%</p>
+      <p>Profit: $650</p>
+      <a href="https://wa.me/2250555524941" class="btn">Commencer</a>
+    </div>
+    <div class="plan-card">
+      <h3>$200</h3>
+      <p>Investissement initial</p>
+      <p>Rendement total: $1600</p>
+      <p>Durée: 1 heure</p>
+      <p>ROI: 700%</p>
+      <p>Profit: $1400</p>
+      <a href="https://wa.me/2250555524941" class="btn">Commencer</a>
+    </div>
+  </div>
+</section>
+
+<!-- Pourquoi nous choisir -->
+<section class="section" id="why">
+  <h2 style="text-align:center;">Pourquoi nous choisir</h2>
+  <div class="features">
+    <div class="card"><h3>Sécurité</h3><p>Vos fonds sont protégés grâce à une gestion sécurisée.</p></div>
+    <div class="card"><h3>Support 24/7</h3><p>Une équipe disponible à tout moment.</p></div>
+    <div class="card"><h3>Rendements rapides</h3><p>Profits garantis en peu de temps.</p></div>
+  </div>
+</section>
+
+<!-- Équipe -->
+<section class="section" id="team">
+  <h2 style="text-align:center;">Notre Équipe</h2>
+  <div class="team">
+    <div class="card">
+      <img src="https://via.placeholder.com/100" alt="Membre">
+      <h3>Jean Dupont</h3>
+      <p>CEO</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/100" alt="Membre">
+      <h3>Marie Claire</h3>
+      <p>Analyste</p>
+    </div>
+  </div>
+</section>
+
+<!-- Domaines -->
+<section class="section" id="domains">
+  <h2 style="text-align:center;">Domaines d’investissement</h2>
+  <div class="domains">
+    <div class="card"><h3>Forex</h3><p>Échanges de devises avec haute rentabilité.</p></div>
+    <div class="card"><h3>Crypto</h3><p>Investissements sur le marché des cryptomonnaies.</p></div>
+    <div class="card"><h3>Actions</h3><p>Trading d’actions internationales.</p></div>
+  </div>
+</section>
+
+<!-- Témoignages -->
+<section class="section" id="testimonials">
+  <h2 style="text-align:center;">Témoignages</h2>
+  <div class="testimonials">
+    <div class="card">
+      <p>“J’ai investi 100$ et j’ai reçu 750$ en une heure. Incroyable !”</p>
+      <p><strong>- Paul K.</strong></p>
+    </div>
+    <div class="card">
+      <p>“Service rapide et fiable, je recommande à tout le monde.”</p>
+      <p><strong>- Aïcha B.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<footer id="contact">
+  <h3>Contactez-nous</h3>
+  <p>Email : info@capitalbankinvestment.com</p>
+  <p>WhatsApp : <a href="https://wa.me/2250555524941">+2250555524941</a></p>
+  <p>&copy; 2025 Capital Bank Investment</p>
+</footer>
+
+</body>
+</html>
